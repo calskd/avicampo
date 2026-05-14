@@ -1,0 +1,8 @@
+Copia aquí tu imagen:
+
+pollo.jpg
+
+Ruta:
+src/main/resources/static/img/pollo.jpg
+
+El sistema ya está programado para usar /img/pollo.jpg como logo.

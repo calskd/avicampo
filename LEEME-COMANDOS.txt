@@ -1,0 +1,28 @@
+AVICAMPO - SISTEMA COMPLETO
+
+1) En HeidiSQL / Laragon ejecuta:
+database.sql
+
+La base se llama:
+avicampo_db
+
+No trae datos iniciales. Todo inicia en cero.
+
+2) Maven Goal para NetBeans:
+org.springframework.boot:spring-boot-maven-plugin:3.3.5:run
+
+3) CMD:
+cd C:\Users\Cristhian\Downloads\avicampo-final-logo
+
+C:\Users\Cristhian\Downloads\apache-maven-3.9.9\apache-maven-3.9.9\bin\mvn.cmd org.springframework.boot:spring-boot-maven-plugin:3.3.5:run
+
+4) Navegador:
+http://localhost:8080
+
+5) Logo:
+Ya viene agregado como:
+src/main/resources/static/img/pollo.jpg
+
+6) MySQL:
+Usuario: root
+Clave configurada: intell221
