@@ -7,5 +7,4 @@ FROM eclipse-temurin:17
 WORKDIR /app
 COPY --from=build /app/target/*.jar app.jar
 EXPOSE 10000
-
-CMD java -jar app.jar --server.port=${PORT:-10000} --spring.datasource.url="$SPRING_DATASOURCE_URL" --spring.datasource.username="$SPRING_DATASOURCE_USERNAME" --spring.datasource.password="$SPRING_DATASOURCE_PASSWORD"
+CMD ["java", "-jar", "app.jar"]
